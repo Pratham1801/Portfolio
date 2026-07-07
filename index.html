@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Prathamesh Bawane - Portfolio</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wgh@600;700&dsplay=swap" rel="stylysheet">
+</head>
+<body>
+    <!--navbar start-->
+    <nav id="navbar">
+        <div class="logo">Prathamesh Bawane</div>
+        <div class="nav-link">
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <section id="hero">
+        <h1>Hi, I'm Prathamesh Bawane</h1>
+        <p>I'm a software engineer who builds web apps that people actually enjoy using.</p>
+        <a href="#projects">See my work</a>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            I'm a software developer with a few years of experience building products that real people use - not just demos. I care about clean, fast load times, and interfaces that don't get in the way.
+        </p>
+
+        <p>
+            Outside of work, I contribute to a couple of open-source projects and
+            I'm always tinkering with something new.
+        </p>
+    </section>
+
+    <!--Skills start-->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-group">
+            <h3>Frontend</h3>
+            <div class="tags">
+                <span>Javascript</span>
+                <span>React</span>
+                <span>HTML/CSS</span>
+            </div>
+        </div>
+        <div class="skill-group">
+            <h3>Backend</h3>
+            <div class="tags">
+                <span>Node.js</span>
+                <span>Python</span>
+                <span>PostgreSQL</span>
+            </div>
+        </div>
+        <div class="skill-group">
+            <h3>Tools</h3>
+            <div class="tags">
+                <span>Git</span>
+                <span>Docker</span>
+                <span>Vs Code</span>
+            </div>
+        </div>
+    </section>
+    <!--Skills end-->
+
+    <!--Project start-->
+
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>One or two sentences on what it does and problem it solves.</p>
+
+                <div class="tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                </div>
+
+                <div class="project-link">
+                    <a href="#">Live</a>
+                    <a href="#">Code</a>
+                </div>
+            </div><!--end of project-card-->
+
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>One or two sentences on what it does and problem it solves.</p>
+
+                <div class="tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                </div>
+
+                <div class="project-link">
+                    <a href="#">Live</a>
+                    <a href="#">Code</a>
+                </div>
+            </div><!--end of project-card-->
+
+        </div> <!--end of project-grid-->
+
+    </section>
+    <!--Project end-->
+
+    <!--contact start-->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Want to work together or just say hi? Reach out.</p>
+
+        <form id="contact-form" action="https://formspree.io/f/mykqvvgq" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p class="direct-email">Or Email me directly: <a href="mailto:bawaneprathamesh0@email.com">bawaneprathamesh0@gmail.com</a></p>
+    </section>
+    <!--contact end-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
